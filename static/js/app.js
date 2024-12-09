@@ -52,13 +52,7 @@ function buildCharts(sample) {
     let bubbledata = [chartData];
     let layout = {
       title: "Bacteria Cultures Per Sample",
-      margin: {
-        l: 50,
-        r: 50,
-        b: 200,
-        t: 50,
-        pad: 4
-      },
+      margin: {t: 30},
       xaxis: { title: 'OTU ID' },
       yaxis: { title: 'Number of Bacteria' }
     };
